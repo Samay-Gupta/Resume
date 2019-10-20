@@ -71,7 +71,7 @@
         <!--========== END HEADER ==========-->
 
         <!--========== SLIDER ==========-->
-        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/bg/background.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -106,8 +106,22 @@
                     </div>
                     <div class="col-sm-8 col-sm-offset-1">
                         <div class="margin-b-60">
-                            <p>As a Back-end and App Developer at heart. I started programming at the age of 12. I have worked on various small and large scale projects. I have represented and secured awards for my school at various events. I also represented India at Y4PT Global Public Transport Hackathon 2019 held in Stockholm, Sweden.</p>
+                            <p>As a Back-end and App Developer at heart. I started programming at the age of 12 and have worked on various small and large scale projects. I have represented and secured awards for my school at various events. I also represented India at Y4PT Global Public Transport Hackathon 2019 held in Stockholm, Sweden.</p>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                            
+                        <div class="row">
+                            <div class="col-md-4 md-margin-b-4">
+                            </div>
+                            <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-info">
+                                            <center><i class="service-icon icon-doc"></i></center>
+                                            <center><h3>Resume</h3></center>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
                         </div>
 
                         <!-- Progress Box -->
@@ -151,7 +165,7 @@
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
                                 <h2 class="margin-b-0">Experience</h2>
-                                <p>Batman would be jealous.</p>
+                                <p>Application of my knowledge</p>
                             </div>
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
@@ -159,11 +173,11 @@
                                 <div class="col-md-4 md-margin-b-4">
                                     <div class="service" data-height="height">
                                         <div class="service-element">
-                                            <i class="service-icon icon-chemistry"></i>
+                                            <i class="service-icon icon-screen-tablet"></i>
                                         </div>
                                         <div class="service-info">
-                                            <h3>HTML5/CSS3</h3>
-                                            <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                            <h3>App Development</h3>
+                                            <p class="margin-b-5">Developed Virtual Eye application for android devices using Java and Android Studio</p>
                                         </div>
                                         <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
                                     </div>
@@ -171,11 +185,11 @@
                                 <div class="col-md-4 md-margin-b-4">
                                     <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
                                         <div class="service-element">
-                                            <i class="service-icon color-white icon-screen-tablet"></i>
+                                            <i class="service-icon color-white icon-camera"></i>
                                         </div>
                                         <div class="service-info">
-                                            <h3 class="color-white">Photoshop</h3>
-                                            <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                            <h3 class="color-white">Computer Vision</h3>
+                                            <p class="color-white margin-b-5">Creation of Object Detection and Face Recognition programs using Python and OpenCV</p>
                                         </div>
                                         <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
                                     </div>
@@ -183,11 +197,11 @@
                                 <div class="col-md-4">
                                     <div class="service" data-height="height">
                                         <div class="service-element">
-                                            <i class="service-icon icon-badge"></i>
+                                            <i class="service-icon icon-screen-desktop"></i>
                                         </div>
                                         <div class="service-info">
-                                            <h3>Front-end</h3>
-                                            <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                            <h3>Web Development</h3>
+                                            <p class="margin-b-5">Working with CISCO for creation of school's event management webiste</p>
                                         </div>
                                         <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
                                     </div>
@@ -478,50 +492,6 @@
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
-        <!-- Custom Slideshow-->
-        <script>
-            // Open the Modal
-            function openModal() {
-              document.getElementById("myModal").style.display = "block";
-            }
-            
-            // Close the Modal
-            function closeModal() {
-              document.getElementById("myModal").style.display = "none";
-            }
-            
-            var slideIndex = 1;
-            showSlides(slideIndex);
-            
-            // Next/previous controls
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-            
-            // Thumbnail image controls
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-            
-            function showSlides(n) {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("demo");
-              var captionText = document.getElementById("caption");
-              if (n > slides.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-              }
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";
-              dots[slideIndex-1].className += " active";
-              captionText.innerHTML = dots[slideIndex-1].alt;
-            }
-        </script>
 
         <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
         <!-- CORE PLUGINS -->
