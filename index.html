@@ -554,14 +554,12 @@
             var listShown = true;
             var progressShown = true;
             function toggleList(){
-                document.getElementById("AchievementsList").style.overflow = listShown ? "visible": "hidden";
-                document.getElementById("AchievementsList").style.height = listShown ? "420px": "160px";
+                document.getElementById("AchievementsList").style = listShown ? "min-height: 160px; overflow: visible": "height: 160px; overflow: hidden";
                 document.getElementById("toggleListIcon").className = listShown ? "icon-arrow-up": "icon-arrow-down";
                 listShown = !listShown;
             }
             function toggleProgress(){
-                document.getElementById("ProgressList").style.overflow = progressShown ? "visible": "hidden";
-                document.getElementById("ProgressList").style.height = progressShown ? "390px": "160px";
+                document.getElementById("ProgressList").style = progressShown ? "min-height: 160px; overflow: visible": "height: 160px; overflow: hidden";
                 document.getElementById("toggleProgressIcon").className = progressShown ? "icon-arrow-up": "icon-arrow-down";
                 progressShown = !progressShown;
             }
